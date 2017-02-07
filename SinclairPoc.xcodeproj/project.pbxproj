@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F480F3F71E46663B005E85DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F480F3F61E46663B005E85DC /* main.m */; };
+		F480F3FA1E46663B005E85DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F480F3F91E46663B005E85DC /* AppDelegate.m */; };
+		F480F3FD1E46663B005E85DC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F480F3FC1E46663B005E85DC /* FirstViewController.m */; };
+		F480F4001E46663B005E85DC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F480F3FF1E46663B005E85DC /* SecondViewController.m */; };
+		F480F4031E46663B005E85DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F480F4011E46663B005E85DC /* Main.storyboard */; };
+		F480F4051E46663B005E85DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F480F4041E46663B005E85DC /* Assets.xcassets */; };
+		F480F4081E46663B005E85DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F480F4061E46663B005E85DC /* LaunchScreen.storyboard */; };
+		F480F4171E468272005E85DC /* JWPlayer-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F480F4161E468272005E85DC /* JWPlayer-iOS-SDK.framework */; };
+		F480F41D1E48DC56005E85DC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F480F41C1E48DC56005E85DC /* AVFoundation.framework */; };
+		F480F41F1E48E05D005E85DC /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F480F41E1E48E05D005E85DC /* AVKit.framework */; };
+		F480F42B1E490801005E85DC /* GoogleInteractiveMediaAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F480F42A1E490801005E85DC /* GoogleInteractiveMediaAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F480F3F21E46663B005E85DC /* SinclairPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinclairPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F480F3F61E46663B005E85DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F480F3F81E46663B005E85DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F480F3F91E46663B005E85DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F480F3FB1E46663B005E85DC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F480F3FC1E46663B005E85DC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F480F3FE1E46663B005E85DC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F480F3FF1E46663B005E85DC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F480F4021E46663B005E85DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F480F4041E46663B005E85DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F480F4071E46663B005E85DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F480F4091E46663B005E85DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F480F4161E468272005E85DC /* JWPlayer-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "JWPlayer-iOS-SDK.framework"; sourceTree = "<group>"; };
+		F480F41C1E48DC56005E85DC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F480F41E1E48E05D005E85DC /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		F480F42A1E490801005E85DC /* GoogleInteractiveMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInteractiveMediaAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F480F3EF1E46663B005E85DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F480F42B1E490801005E85DC /* GoogleInteractiveMediaAds.framework in Frameworks */,
+				F480F41F1E48E05D005E85DC /* AVKit.framework in Frameworks */,
+				F480F41D1E48DC56005E85DC /* AVFoundation.framework in Frameworks */,
+				F480F4171E468272005E85DC /* JWPlayer-iOS-SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F480F3E91E46663B005E85DC = {
+			isa = PBXGroup;
+			children = (
+				F480F3F41E46663B005E85DC /* SinclairPoc */,
+				F480F3F31E46663B005E85DC /* Products */,
+				F480F40F1E467A9B005E85DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F480F3F31E46663B005E85DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F480F3F21E46663B005E85DC /* SinclairPoc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F480F3F41E46663B005E85DC /* SinclairPoc */ = {
+			isa = PBXGroup;
+			children = (
+				F480F3F81E46663B005E85DC /* AppDelegate.h */,
+				F480F3F91E46663B005E85DC /* AppDelegate.m */,
+				F480F3FB1E46663B005E85DC /* FirstViewController.h */,
+				F480F3FC1E46663B005E85DC /* FirstViewController.m */,
+				F480F3FE1E46663B005E85DC /* SecondViewController.h */,
+				F480F3FF1E46663B005E85DC /* SecondViewController.m */,
+				F480F4011E46663B005E85DC /* Main.storyboard */,
+				F480F4041E46663B005E85DC /* Assets.xcassets */,
+				F480F4061E46663B005E85DC /* LaunchScreen.storyboard */,
+				F480F4091E46663B005E85DC /* Info.plist */,
+				F480F3F51E46663B005E85DC /* Supporting Files */,
+			);
+			path = SinclairPoc;
+			sourceTree = "<group>";
+		};
+		F480F3F51E46663B005E85DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F480F3F61E46663B005E85DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F480F40F1E467A9B005E85DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F480F42A1E490801005E85DC /* GoogleInteractiveMediaAds.framework */,
+				F480F41E1E48E05D005E85DC /* AVKit.framework */,
+				F480F41C1E48DC56005E85DC /* AVFoundation.framework */,
+				F480F4161E468272005E85DC /* JWPlayer-iOS-SDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F480F3F11E46663B005E85DC /* SinclairPoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F480F40C1E46663B005E85DC /* Build configuration list for PBXNativeTarget "SinclairPoc" */;
+			buildPhases = (
+				F480F3EE1E46663B005E85DC /* Sources */,
+				F480F3EF1E46663B005E85DC /* Frameworks */,
+				F480F3F01E46663B005E85DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinclairPoc;
+			productName = SinclairPoc;
+			productReference = F480F3F21E46663B005E85DC /* SinclairPoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F480F3EA1E46663B005E85DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Object Frontier. Inc.,";
+				TargetAttributes = {
+					F480F3F11E46663B005E85DC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AB6YA7P755;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F480F3ED1E46663B005E85DC /* Build configuration list for PBXProject "SinclairPoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F480F3E91E46663B005E85DC;
+			productRefGroup = F480F3F31E46663B005E85DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F480F3F11E46663B005E85DC /* SinclairPoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F480F3F01E46663B005E85DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F480F4081E46663B005E85DC /* LaunchScreen.storyboard in Resources */,
+				F480F4051E46663B005E85DC /* Assets.xcassets in Resources */,
+				F480F4031E46663B005E85DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F480F3EE1E46663B005E85DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F480F4001E46663B005E85DC /* SecondViewController.m in Sources */,
+				F480F3FA1E46663B005E85DC /* AppDelegate.m in Sources */,
+				F480F3FD1E46663B005E85DC /* FirstViewController.m in Sources */,
+				F480F3F71E46663B005E85DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F480F4011E46663B005E85DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F480F4021E46663B005E85DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F480F4061E46663B005E85DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F480F4071E46663B005E85DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F480F40A1E46663B005E85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F480F40B1E46663B005E85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F480F40D1E46663B005E85DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AB6YA7P755;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SinclairPoc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.objectfrontier.SinclairPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F480F40E1E46663B005E85DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AB6YA7P755;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SinclairPoc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.objectfrontier.SinclairPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F480F3ED1E46663B005E85DC /* Build configuration list for PBXProject "SinclairPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F480F40A1E46663B005E85DC /* Debug */,
+				F480F40B1E46663B005E85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F480F40C1E46663B005E85DC /* Build configuration list for PBXNativeTarget "SinclairPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F480F40D1E46663B005E85DC /* Debug */,
+				F480F40E1E46663B005E85DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F480F3EA1E46663B005E85DC /* Project object */;
+}
