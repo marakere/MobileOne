@@ -358,6 +358,7 @@
 				F480F40E1E46663B005E85DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
